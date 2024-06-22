@@ -1,0 +1,24 @@
+<!-- recycler_item_adminview.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/itemImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/img"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/itemPredictedClassTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/itemImageView"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="16dp"
+        android:text="Predicted class:"
+        android:textSize="18sp" />
+
+</RelativeLayout>
